@@ -1,0 +1,13 @@
+{
+  "name": "ats-ia-backend",
+  "version": "1.0.0",
+  "description": "Backend para análise de CV com Claude",
+  "main": "api/analisar-cv.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'build complete'"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.0"
+  }
+}
