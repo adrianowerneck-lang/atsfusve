@@ -11,8 +11,5 @@
       "src": "/api/(.*)",
       "dest": "/api/$1"
     }
-  ],
-  "env": {
-    "ANTHROPIC_API_KEY": "@anthropic_api_key"
-  }
+  ]
 }
